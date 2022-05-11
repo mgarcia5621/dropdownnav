@@ -43,13 +43,30 @@
 }
 
 .hero {
-    display: flex;
-    padding-top: 150px;
+    position: absolute;
+    width: 540px;
+    height: 400px;
+    left: 165px;
+    top: 234px;
 }
 
 .hero-left {
-    width: 50%;
-    padding: 20px;
+    position: absolute;
+    width: 540px;
+    height: 161px;
+    left: 0;
+    top: -80px;
+
+    width: 80%;
+    /* padding: 20px 20px 20px 0; */
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    /* or 100% */
+
+    letter-spacing: -1.11111px;
 }
 
 .hero .hero-left h1 {
@@ -58,4 +75,46 @@
     line-height: 2;
 }
 
-.hero .hero-left
+.hero-text {
+    position: absolute;
+    width: 445px;
+    height: 84px;
+    left: 0;
+    top: 100px;
+
+    /* Body M */
+
+    font-family: 'Epilogue';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+
+    /* Medium Grey */
+
+    color: #686868;
+}
+
+.hero-a {
+    position: absolute;
+    width: 130px;
+    height: 40px;
+    top: 200px;
+    background-color: #151515;
+    border-radius: 15px;
+    color: #fff;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attribution {
+    position: absolute;
+    width: 477.63px;
+    height: 35.9px;
+    left: 165.38px;
+    bottom: 0;
+}
