@@ -9,22 +9,30 @@
     display: space;
 }
 
-.navbar {
-    /* background: #333; */
-    overflow: hidden;
+.log-reg, .register {
+  margin-top: 8px;
+  margin-right: 8px;
+  float: right;
+  display: flex;  
+}
+.register {
+    border: 1px solid black;
+    border-radius: 23px;
+    margin: 2px;
 }
 
-.navbar a {
+
+.topnav a {
     float: left;
     color: black;
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     transition: all 0.2s ease;
-    margin-top: 2px;
+    margin-top: 1px;
 }
 
-.navbar a:hover {
+.topnav a:hover {
     background: #ddd;
     color: black;
     border-radius: 20px;
@@ -34,6 +42,7 @@
     float: right;
     padding: 10px;
 }
+
 
 .login-reg .register {
     /* background: darkgray; */
@@ -139,30 +148,28 @@
 } */
 
 @media screen and (max-width: 768px) {
-    .navbar, .nav-links {
+    .topnav, .nav-links {
         display: none;
         
     }
-    .hero {
-        font-size: 10px;
-    }
+    
 }
 
-.navbar i {
+/* .topnav i {
     display: flex;
     overflow: hidden;
-    /* display: flex; */
-    /* margin-top: 17px; */
+    display: flex; 
+    margin-top: 17px;
 
-}
+} */
 
-.collapse {
+/* .collapse {
     display: none;
     visibility: hidden;
-}
+} */
 /* 
 @media (min-width: 768px) {
-    .navbar-collapse.collapse {
+    .tnav-collapse.collapse {
         display: block;
         height: auto;
         padding-bottom: 0;
