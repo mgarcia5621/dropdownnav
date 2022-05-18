@@ -148,7 +148,7 @@
 } */
 
 @media screen and (max-width: 768px) {
-    .topnav, .nav-links {
+    .topnav,   {
         display: none;
         
     }
@@ -179,3 +179,8 @@
 }
 
 } */
+
+.topnav, i{
+    /* background: black; */
+    display: flex;
+}
