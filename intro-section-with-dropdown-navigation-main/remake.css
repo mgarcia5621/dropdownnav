@@ -111,3 +111,13 @@
     left: 1100px;
     top: 30px;
 }
+
+/* company logos */
+
+.companylogos {
+    /* background: red; */
+    background-image: url();
+    position: absolute;
+    top: 600px;
+    display: grid;
+}
