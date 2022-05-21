@@ -102,14 +102,21 @@
     bottom: 0;
 }
 
+.img-hero {
+    position: absolute;
+    /* width: 480px;
+    height: 460px; */
+    left: 830px;
+    top: 130px;
+}
 
 .img-hero img {
-    object-fit: cover;
     position: absolute;
-    width: 800px;
-    height: 900px;
-    left: 1100px;
-    top: 30px;
+    width: 480px;
+    height: 460px;
+    /* left: 830px; */
+    /* top: 130px; */
+    /* right: 100px; */
 }
 
 /* company logos */
