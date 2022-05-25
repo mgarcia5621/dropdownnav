@@ -25,8 +25,9 @@
       
   }
   /* end of the login and register div */
-  
+
   .topnav a {
+    cursor: pointer;
     float: left;
     color: black;
     padding: 14px 18px;
@@ -137,3 +138,13 @@
     display: grid;
 }
 
+/* Dropdown  */
+.dropdown-content {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: block;
+    /* position: absolute; */
+}
+/* End of dropdown */
