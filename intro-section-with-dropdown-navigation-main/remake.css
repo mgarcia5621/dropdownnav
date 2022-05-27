@@ -140,13 +140,26 @@
 
 /* Dropdown  */
     .dropdown-menu ul li {
-        padding: 1px;
-        /* width: 150px; */
-        /* border: 1px solid white; */
         height: 50px;
         line-height: 50px;
         text-align: center;
         color: black;
         position: relative;
+        list-style: none;
+    }
+
+
+    .dropdown-menu ul li:hover {
+        background: rgb(199, 199, 199);
+        border-radius: 20px;
+        
+    }
+
+    .dropdown-menu ul li {
+        display: none;
+    }
+
+    .dropdown-menu ul li:hover > ul {
+        display: block;
     }
 /* End of dropdown */
