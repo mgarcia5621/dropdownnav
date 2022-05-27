@@ -139,24 +139,14 @@
 }
 
 /* Dropdown  */
-.dropdown-content {
-    position: relative;
-}
-
-.dropdown-menu {
-    display: block;
-    /* position: absolute; */
-    left: 0;
-    top: 100%;
-    background-color: var(--color-black);
-}
-.dropdown-menu ul {
-    display: block;
-    margin: 10px;
-}
-
-.dropdown-menu ul li {
-    width: 150px;
-    padding: 10px;
-}
+    .dropdown-menu ul li {
+        padding: 1px;
+        /* width: 150px; */
+        /* border: 1px solid white; */
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        color: black;
+        position: relative;
+    }
 /* End of dropdown */
