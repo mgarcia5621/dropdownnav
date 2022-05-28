@@ -159,7 +159,9 @@
         display: none;
     }
 
-    .dropdown-menu ul li:hover > ul {
+    .hoveroverme:hover ul li{
         display: block;
     }
+
 /* End of dropdown */
+/* 
