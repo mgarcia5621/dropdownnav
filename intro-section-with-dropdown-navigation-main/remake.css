@@ -152,24 +152,36 @@
         list-style: none;
     }
 
-
+/* 
     .dropdown-menu ul li:hover {
         background: rgb(199, 199, 199);
         border-radius: 20px;
         
+    } */
+
+    #company ul {
+        background: rgb(199, 199, 199);
+        border-radius: 20px;
+    }
+
+    #company ul li {
+        display: none;
+    }
+
+    #company:hover ul li {
+        display: block;
     }
 
     .dropdown-menu ul li {
         display: none;
     }
 
-    .hoveroverme:hover ul li{
+    /* .hoveroverme:hover ul li{
         display: block;
-        /* background: white; */
         border-radius: 20px;
         justify-content: center;
         text-align: center;
-    }
+    } */
 
 /* End of dropdown */
 /* 
