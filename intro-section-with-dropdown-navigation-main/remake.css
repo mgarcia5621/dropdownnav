@@ -176,6 +176,20 @@
         display: none;
     }
 
+
+    #features ul {
+        background: rgb(199, 199, 199);
+        border-radius: 20px;
+    }
+
+    #features ul li {
+        display: none;
+    }
+
+    #features:hover ul li {
+        display: block;
+    }
+
     /* .hoveroverme:hover ul li{
         display: block;
         border-radius: 20px;
