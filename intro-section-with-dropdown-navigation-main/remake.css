@@ -160,6 +160,9 @@
 
     #company ul li {
         display: none;
+        background: white;
+        border-radius: 20px;
+        padding: 10px;
     }
 
     #company:hover ul li {
@@ -171,12 +174,15 @@
     }
 
     #features ul {
-        /* background: rgb(199, 199, 199); */
+        background: white;
         border-radius: 20px;
     }
 
     #features ul li {
         display: none;
+        background: white;
+        border-radius: 20px;
+        padding: 10px;
     }
 
     #features:hover ul li {
@@ -216,9 +222,7 @@
     min-width: 500px;
     padding-top: 15px;
 }
-.item1 a {
 
-}
 .item1 p {
     font-size: 20px;
 }
