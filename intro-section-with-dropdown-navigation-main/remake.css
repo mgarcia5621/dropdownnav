@@ -193,14 +193,44 @@
 /* End of dropdown */
 
 
-.column1 {
-    position: absolute;
-    top: 300px;
-    left: 20px;
-
+.parent-container {
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-areas: 
+    "A B"
+    "A C";
 }
 
-.column2 {
-    /* position: relative; */
-    
+.item1 {
+    grid-area: A;
+    /* background: red; */
+    width: 350px;
+    height: 300px;
+    padding: 15px;
+    position: relative;
+    right: 400px;
+    top: 250px;
+}
+.item1 h1 {
+    font-size: 5rem;
+    min-width: 500px;
+    padding-top: 15px;
+}
+.item1 a {
+
+}
+.item1 p {
+    font-size: 20px;
+}
+.item2 {
+    grid-area: B;
+    /* background-size: cover; */
+    width: 40px;
+}
+
+.item2 img {
+    position: relative;
+    right: 200px;
+    width: 700px;
+    top: 100px;
 }
