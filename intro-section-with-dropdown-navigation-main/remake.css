@@ -41,7 +41,6 @@
     margin-right: 20px;
 }
 .topnav a:hover {
-    /* background: #ddd; */
     color: black;
     border-radius: 20px;
 }
@@ -95,10 +94,10 @@
 .learnmore {
     width: 130px;
     height: 40px;
-    background: rgb(235, 235, 235);
+    background: black;
     border: 1.2px solid #151515;
     border-radius: 15px;
-    color: #151515;
+    color: white;
     text-decoration: none;
     display: flex;
     justify-content: center;
@@ -107,8 +106,8 @@
 }
 /* Hover for hero-a */
     .learnmore:hover {
-        background: #151515;
-        color: white;
+        background: white;
+        color: black;
     }
 /* End of hero-a */
 
@@ -146,13 +145,6 @@
         list-style: none;
     }
 
-/* 
-    .dropdown-menu ul li:hover {
-        background: rgb(199, 199, 199);
-        border-radius: 20px;
-        
-    } */
-
     #company ul {
         background: rgb(255, 255, 255);
         border-radius: 20px;
@@ -189,17 +181,10 @@
         display: block;
     }
 
-    /* .hoveroverme:hover ul li{
-        display: block;
-        border-radius: 20px;
-        justify-content: center;
-        text-align: center;
-    } */
-
 /* End of dropdown */
 
 
-.parent-container {
+/* .parent-container {
     display: grid;
     grid-auto-flow: column;
     grid-template-areas: 
@@ -209,7 +194,6 @@
 
 .item1 {
     grid-area: A;
-    /* background: red; */
     width: 350px;
     height: 300px;
     padding: 15px;
@@ -219,7 +203,6 @@
 }
 .item1 h1 {
     font-size: 5rem;
-    min-width: 500px;
     padding-top: 15px;
 }
 
@@ -228,13 +211,30 @@
 }
 .item2 {
     grid-area: B;
-    /* background-size: cover; */
     width: 40px;
 }
 
 .item2 img {
     position: relative;
-    right: 200px;
+    right: 300px;
     width: 700px;
     top: 100px;
+} */
+
+.parent-container {
+    display: flex;
+    flex-direction: row;
 }
+
+.item1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* media responsive section */
+
+@media screen and (min-width: 768px) {
+    
+}
+
+/* end of media responsive section */
