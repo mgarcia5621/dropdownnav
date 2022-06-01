@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    background: rgb(235, 235, 235);
 }
 
 .contents {
@@ -40,7 +41,7 @@
     margin-right: 20px;
 }
 .topnav a:hover {
-    background: #ddd;
+    /* background: #ddd; */
     color: black;
     border-radius: 20px;
 }
@@ -94,7 +95,7 @@
 .learnmore {
     width: 130px;
     height: 40px;
-    background-color: white;
+    background: rgb(235, 235, 235);
     border: 1.2px solid #151515;
     border-radius: 15px;
     color: #151515;
@@ -153,7 +154,7 @@
     } */
 
     #company ul {
-        background: rgb(199, 199, 199);
+        background: rgb(255, 255, 255);
         border-radius: 20px;
     }
 
@@ -169,9 +170,8 @@
         display: none;
     }
 
-
     #features ul {
-        background: rgb(199, 199, 199);
+        /* background: rgb(199, 199, 199); */
         border-radius: 20px;
     }
 
