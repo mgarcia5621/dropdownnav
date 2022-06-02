@@ -222,15 +222,33 @@
 } */
 
 .parent-container {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    left: 330px;
     display: flex;
     flex-direction: row;
 }
-
-.item1 {
+.item1 h1 {
+    width: inherit;
+}
+.item1  {
     display: flex;
     flex-wrap: wrap;
+    /* padding-right: 30px; */
 }
+.item1 {
+    width: 60%;
+    padding-right: 90px;
+}
+.item2 {
+    display: flex;
+    background-size: cover;
+}
+.item2 img {
+    width: 200px;
 
+}
 /* media responsive section */
 
 @media screen and (min-width: 768px) {
@@ -238,3 +256,4 @@
 }
 
 /* end of media responsive section */
+s
