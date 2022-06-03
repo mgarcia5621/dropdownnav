@@ -12,6 +12,7 @@
 
 /* Login and register div */
 .log-reg {
+    box-sizing: content-box;
     float: right;
     display: flex;  
     
