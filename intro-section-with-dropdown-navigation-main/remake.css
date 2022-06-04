@@ -241,7 +241,7 @@
 .item2 img {
     height: 640px;
     width: 80%;
-    background-size: cover;
+    object-fit: contain;
 }
 
 .attribution {
