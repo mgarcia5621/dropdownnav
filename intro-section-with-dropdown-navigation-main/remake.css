@@ -225,6 +225,7 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    height: 35em;
 }
 
 .item1 h1 {
@@ -239,6 +240,7 @@
 .item2 img {
     height: 45em;
     width: 80%;
+    background-size: cover;
 }
 
 .attribution {
