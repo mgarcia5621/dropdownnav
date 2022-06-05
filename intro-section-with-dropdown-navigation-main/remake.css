@@ -1,4 +1,4 @@
-*, body {
+*, body, html {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -235,6 +235,14 @@
 
 .item1 p {
     font-size: 1.5em;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    padding-right: 3em;
+    color: grey;
+}
+
+.item1 a {
+    padding: 1em;
 }
 
 .item2 img {
@@ -245,11 +253,13 @@
 
 .attribution {
     display: flex;
-    width: 100%;
+    width: 50%;
     flex-direction: row;
     justify-content: space-evenly;
     height: 5em;
     align-items: center;
+    position: relative;
+    bottom: 5em;
 }
 
 /* media responsive section */
