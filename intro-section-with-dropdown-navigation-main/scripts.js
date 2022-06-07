@@ -1,8 +1,2 @@
-function hamburger() {
-    let navigation = document.getElementById("nav-links")
-    if (navigation.style.display === "none"); {
-        navigation.style.display = "none";
-    } else {
-        navigation.style.display = "block";
-    }
-}
+let button = document.createElement("button");
+button.innerHTML = "Do something";
