@@ -127,16 +127,21 @@ transition: all 0.2s ease;
 
 #company ul li {
     display: none;
-    /* background: white; */
+    background: white;
     border-radius: 20px;
     justify-content: center;
     text-align: center;
+    height: 33px;
+    font-size: 12px;
+}
+
+#company ul li:last-child {
+    height: auto;
 }
 
 #company:hover ul li  {
     display: block;
     background: white;
-    
 }
 #company:hover svg {
     /* padding-right: 5px; */
