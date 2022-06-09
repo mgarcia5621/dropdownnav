@@ -21,8 +21,9 @@
 
 /* end of the login and register div */
 .topnav {
-height: 60px;
-padding: 10px;
+    height: 60px;
+    padding: 10px;
+    font-weight: 550;
 }
 
 .topnav a {
@@ -33,8 +34,8 @@ padding: 14px 18px;
 text-decoration: none;
 font-size: 17px;
 transition: all 0.2s ease;
-margin-top: 1px;
-margin-right: 20px;
+/* margin-top: 1px; */
+/* margin-right: 20px; */
 }
 
 .topnav a:hover {
@@ -99,13 +100,6 @@ margin-right: 20px;
     }
 /* End of hero-a */
 
-/* company logos */
-.companylogos {
-    background-image: url();
-    position: absolute;
-    top: 600px;
-    display: grid;
-}
 
 /* Dropdown  */
 .dropdown-menu ul li {
@@ -116,6 +110,7 @@ margin-right: 20px;
     color: black;
     position: relative;
     list-style: none;
+    padding: 4px;
 }
 
 #company ul {
@@ -131,23 +126,23 @@ margin-right: 20px;
 
 #company ul li {
     display: none;
-    background: white;
+    /* background: white; */
     border-radius: 20px;
-
 }
 
 #company:hover ul li  {
     display: block;
     background: white;
+    
 }
-#company:hover i {
-    padding-right: 5px;
+#company:hover svg {
+    /* padding-right: 5px; */
     transform: rotate(180deg);
 }
 
-#features:hover i {
+#features:hover svg{
     transform: rotate(180deg);
-    padding-right: 5px;
+    padding-left: 3px;    
 }
 
 .dropdown-menu ul li {
