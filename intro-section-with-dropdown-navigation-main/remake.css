@@ -169,6 +169,9 @@
     justify-content: center;
     text-align: center;
     box-shadow: 5 10px;
+    height: 2.5rem;
+    font-size: 12px;
+    padding: 0;
 }    
 
 #features:hover ul li {
@@ -177,8 +180,7 @@
     height: 45px;
     margin: 0;
     padding: 0;
-}    
-
+}
 
 
 /* End of dropdown */
