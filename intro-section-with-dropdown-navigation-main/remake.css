@@ -266,7 +266,12 @@
     .attribution {
         margin-left: 0;
     }
-
+    .item1 {
+        padding-top: 11em;
+    }
+    .item2 {
+        /* padding-bottom: 12em; */
+    }
 }   
 
 }
