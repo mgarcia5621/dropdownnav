@@ -244,8 +244,16 @@ transition: all 0.2s ease;
 }    
 
 /* media responsive section */
+@media screen and (min-width: 600px) {
+    .attribution {
+        margin-left: 3em;
+    }
 
 
+@media screen and (min-width: 2000px) {
+    .attribution {
+        margin-left: 0;
+    }
+}
+}   
 /* end of media responsive section */
-
-
