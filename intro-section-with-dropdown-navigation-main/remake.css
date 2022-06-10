@@ -230,6 +230,7 @@ transition: all 0.2s ease;
 .item2 img {
     max-height: 80vh;
     width: 75%;
+    object-fit: contain;
 }    
 
 .attribution {
