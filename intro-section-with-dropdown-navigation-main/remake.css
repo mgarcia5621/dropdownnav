@@ -159,7 +159,8 @@
     background: white;
     border-radius: 20px;
     position: relative;
-    margin-top: 5px;
+    margin-top: 5px
+    
     
 }
 
@@ -249,6 +250,9 @@
 
 /* media responsive section */
 @media screen and (min-width: 600px) {
+    .hamburger {
+        display: none;
+    }
     .attribution {
         margin-left: 3em;
     }
@@ -257,11 +261,13 @@
         /* padding-left: 7.5em; */
         padding-bottom: 3.2em;
     }
+
     .parent-container {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: auto auto;
         /* min-height: 12vh; */
+    
 }
 
 
@@ -275,7 +281,30 @@
     .item2 {
         /* padding-bottom: 12em; */
     }
+    .hamburger {
+        display: none;
+    }
 }   
+@media screen and (max-width: 768px) {
+    .topnav :not(:first-child) {
+        display: none;
+    }
+    
+
+}
+@media screen and (max-width: 599px) {
+    .topnav :not(:first-child) {
+        display: none;
+    }
+    
+    .hamburger {
+        display: block;
+    }
+
+}
+
+
 
 }
 /* end of media responsive section */
+
