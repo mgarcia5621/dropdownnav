@@ -209,7 +209,7 @@
 }    
 
 .item1 h1 {
-    font-size: 6em;
+    font-size: 5em;
     width: 91%;
 }    
 
@@ -296,9 +296,45 @@
     .nav-container {
         display: none;
     }
-    
+    .topnav a {
+        padding: 8px 4px;
+    }
     .hamburger {
         display: block;
+        float: right;
     }
+    .item1 {
+        padding: 1em;
+        justify-content: center;
+        align-items: center;
+    }
+    .item1 p {
+        padding-top: 0;
+        padding-bottom: 0;
+        padding-bottom: 9px;
+        padding-right: 0;
+        width: 338px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .item1 h1 {
+        font-size: 2.4em;
+        width: 110%;
+        text-align: center;
+        padding-bottom: 28px;
+    }
+    .item1 .learnmore a {
+        /* justify-content: center;
+        align-items: center */
+    }
+    .item2 img {
+        display: none;
+    }
+    .attribution {
+        justify-content: end;
+    }
+    
 
 }
