@@ -9,6 +9,7 @@
 
 function myFunction() {
   let openNav = document.getElementById("myLinks")
+  let closeNav = document.getElementById("mySideNav")
   if (openNav.style.display === "block") {
     openNav.style.display = "none";
   } else {
