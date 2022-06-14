@@ -382,9 +382,15 @@
         transition: margin-left .5s;
         /* padding: 20px; */
     }
-
-    .navbar2 h1 {
+    .navbar2 {
+        position: relative;
+        z-index: 1;
+        height: 0;
         
+    }
+    .navbar2 h1 {
+        position: relative;
+        z-index: 1;
     }
 
 }
