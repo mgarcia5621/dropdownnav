@@ -331,6 +331,16 @@
         float: right;
         padding-top: 6px;
     }
+    #company:hover ul li  {
+        /* display: block; */
+        background: white;
+        font-size: 20px;
+    }
+    #features:hover ul li  {
+        /* display: block; */
+        background: white;
+        font-size: 20px;
+    }
     .item1 {
         padding: 1em;
         justify-content: center;
