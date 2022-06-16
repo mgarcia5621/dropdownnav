@@ -11,6 +11,7 @@
     box-sizing: content-box;
     float: right;
     display: flex;  
+    padding-top: 10px;
 
 }
 
@@ -311,8 +312,12 @@
     }
 
     .log-reg {
-        /* display: flex; */
-        /* flex-wrap: column; */
+        justify-content: center;
+        display: flex;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
     }
 
     .container {
@@ -387,7 +392,7 @@
     }
 
     .sidenav a:hover {
-        color: #f1f1f1;
+        /* color: #f1f1f1; */
     }
 
     .sidenav .closebtn {
