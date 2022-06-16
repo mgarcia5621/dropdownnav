@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    background: rgb(235, 235, 235);
+    background: white;
 }
 
 /* Login and register div */
@@ -275,6 +275,9 @@
 
 
 @media screen and (min-width: 2000px) {
+    .topnav {
+        display: block;
+    }
     .attribution {
         margin-left: 0;
     }
@@ -302,8 +305,16 @@
 
 @media only screen and (max-width: 599px) {
     .nav-container {
-        display: none;
+        display: block;
+        display: flex;
+        flex-direction: column;
     }
+
+    .log-reg {
+        /* display: flex; */
+        /* flex-wrap: column; */
+    }
+
     .container {
         padding: 3px;
     }
@@ -355,7 +366,7 @@
 
     .sidenav {
         height: 100%;
-        width: 50%;
+        width: 65%;
         position: fixed;
         z-index: 1;
         top: 0;
@@ -367,10 +378,10 @@
     }
 
     .sidenav a {
-        padding: 8px 8px 8px 32px;
+        padding: 8px 8px 8px 14px;
         text-decoration: none;
         font-size: 23px;
-        color: #818181;
+        /* color: #818181; */
         display: block;
         transition: 0.3s;
     }
