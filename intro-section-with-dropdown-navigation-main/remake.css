@@ -2,7 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Epilogue', sans-serif;
+    /* font-weight: 700; */
+    /* font-family: 'Poppins', sans-serif; */
     background: white;
 }
 
@@ -67,7 +69,7 @@
     height: 84px;
     left: 0;
     top: 100px;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Epilogue', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 18px;
