@@ -11,6 +11,8 @@ let closeNav = document.getElementById("mySideNav")
 let mySideNav = document.getElementById("mySidenav")
 let openBtn = document.querySelector(".openbtn")
 let closeBtn = document.querySelector(".navbar2")
+const container = document.querySelector('body')
+
 
 function myFunction() {
   if (openNav.style.display === "block") {
@@ -18,7 +20,6 @@ function myFunction() {
   } else {
     openNav.style.display = "block"
   }
-  // document.body.style.backgroundColor = "rgba(0,0,0,0.4)"
 }
 
 openNav.addEventListener('click', () => {
@@ -30,10 +31,7 @@ openNav.addEventListener('click', () => {
     mySideNav.style.display = "block";
     openBtn.style.display = "none";
     closeBtn.style.display = "block";
+    
   }
   console.log('Clicked hamburger');
 })
-
-// function closeNav() {
-//   if (openNav)
-// }
