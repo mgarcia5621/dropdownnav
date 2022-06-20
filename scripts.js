@@ -1,16 +1,9 @@
-// function openNav() 
-// document.getElementById("mySidenav").style.width = "250px";
-  
-
-// function closeNav() 
-// document.getElementById("mySidenav").style.width = "0";
-  
-
 let openNav = document.querySelector(".hamburger")
 let closeNav = document.getElementById("mySideNav")
 let mySideNav = document.getElementById("mySidenav")
 let openBtn = document.querySelector(".openbtn")
 let closeBtn = document.querySelector(".navbar2")
+let overlay = document.getElementById('overlay')
 const container = document.querySelector('body')
 
 
@@ -27,10 +20,12 @@ openNav.addEventListener('click', () => {
     mySideNav.style.display = "none";
     closeBtn.style.display = "none";
     openBtn.style.display = "block";
+    overlay.style.display = "none";
   } else {
     mySideNav.style.display = "block";
     openBtn.style.display = "none";
     closeBtn.style.display = "block";
+    overlay.style.display = "block";
     
   }
   console.log('Clicked hamburger');
