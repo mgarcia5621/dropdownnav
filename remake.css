@@ -375,7 +375,9 @@
         display: none;
     }
     .attribution {
-        justify-content: end;
+        /* justify-content: end; */
+        display: flex;
+        gap: 7px;
     }
 
     #mySidenav {
