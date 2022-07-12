@@ -301,11 +301,6 @@
         display: none;
     }
 }   
-/* @media screen and (max-width: 768px) {
-    .topnav :not(:first-child) {
-        display: none;
-    }
-} */
 
 @media only screen and (max-width: 599px) {
     .nav-container {
